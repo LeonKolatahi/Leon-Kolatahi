@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Video</title>
+</head>
+<style>
+
+h1 {color: #ffcc99;}
+h1 {font-size: 50px;}
+h1 {font-family: Georgia;}
+h1 {text-shadow: 2px 2px black;}
+
+h2 {color: #ffcc99;}
+h2 {font-size: 35px;}
+h2 {font-family: Georgia;}
+h2 {text-shadow: 2px 2px black;}
+
+h3 {color: yellow;}
+h3 {font-size: 20px;}
+h3 {font-family: Georgia;}
+h3 {text-shadow: 2px 2px black;}
+
+p {color: white;}
+p {font-size: 20px;}
+p {font-family: Monaco;}
+p {text-shadow: 2px 2px black;}
+
+
+body {background-image:url("slike/pozadina4.jpg") ;}
+
+
+ul {padding:30px;
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 350px;
+			} 
+	li {	display:inline; 
+			background-color: yellow ;
+			padding:20px;
+			border: 2px solid red;
+		}
+	li:active {background-color:red;}
+		
+	li a {	color:black; 
+			font-family: Helvetica; 
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}
+
+</style>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html">Početna</a></li>
+			<li><a href="o meni.html">O meni</a></li>
+			<li><a href="vjezbe.html">Vježbe</a></li>
+		</ul>
+	</nav>
+	
+	<center><h1>Video uradak</h1></center>
+	<center><video src= "video/video.mp4" height="500" controls></video></center>
+	<center><h2>Opis uređivanja video isječka: </h2></center>
+	
+	<center><p>Video sam napravio u programu Shotcut.</p></center>
+	<center><p>Koristio sam 7 kratkih videa, prvi sam pretvorio u gif, ostale sam skratio i posložio.</p></center>
+	<center><h2>Efekti koje sam koristio:</h2></center>
+	
+	<div style="width: 100%;">
+        <div style="width: 50%; height: 100px; float: left; background: transparent;">
+			
+			<center><h3>Video:</h3></center>
+			<center>
+			<ol>
+				<p>Fade out / Fade in</p>
+				<p>Opacity (keyframes)</p>
+				<p>360: Transform</p>
+				<p>Glitch</p>
+				<p>Size, position and rotation</p>
+				<p>Blur</p>
+			</ul>
+			</center>
+			
+		</div>
+		
+        <div style="margin-left: 50%; height: 100px; background: transparent;">
+			
+			<center><h3>Tekst i audio:</h3></center>
+			<center>
+			<ol>
+				<p>Fade in/Fade out</p>
+				<p>Size, position and rotation</p>
+				<p>Distort</p>
+			</ul>
+			</center>
+			
+			
+        </div>
+		
+    </div>
+	
+	
+</body>
+</html>
